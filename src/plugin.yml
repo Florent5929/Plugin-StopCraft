@@ -1,0 +1,18 @@
+# Plus d'infos ici : https://docs.google.com/document/d/1oVpz_C4qgHhdE7IQOerAI1NqXz-MuijM_m8wJ9HwX5Y/edit?usp=sharing
+name: fr_Florent59_StopCraft
+main: fr.Florent59.StopCraft.main
+version: 1.12.2
+description: Annule la création d'un item via une matrice de craft (inventaire ou établi), sauf si le joueur est un opérateur ou si l'item est répertorié comme étant autorisé.
+author: Florent59
+commands:
+ addItemAllow:
+  description: Ajoute un item dans la config
+  permission: op
+ removeItemAllow:
+  description: Supprime un item dans la config
+  permission: op
+ showItemsAllow:
+  description: Montre tous les items de la config
+ showItems:
+  description: Envoie un lien vers une javadoc repertoriant tous les items existants.
+  permission: op
